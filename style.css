@@ -4,9 +4,10 @@
     box-sizing: border-box;
 }
 body{
+
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(#cf2425,#da6062 50%, #da3062 60%,#cf2425);
+    background: linear-gradient(#cf2425,#ec6063 50%, #e42760 60%,#cf2425);
     display: flex;
     flex-direction: column;
     font-family: 'Montserrat', sans-serif;
@@ -47,7 +48,7 @@ header span{
     .content-text{
         position: absolute;
         color: #ffff;
-        font-size: 40px;
+        font-size: 2.5rem;
         width: 240px;
         transform: translateX(-100%);
         text-align: end;
@@ -70,3 +71,17 @@ header span{
     footer div{
         width: 64px;
     }
+
+    
+@media (max-width:768px){
+        header{
+            padding-left: 75px;
+        }
+        .content-text{
+        transform: translateX(0%);
+        top: 80px;
+        font-size: 1rem;
+        width: 100px;
+        text-align: center;
+    }
+}
