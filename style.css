@@ -43,6 +43,7 @@ header span{
         bottom: 0;
         z-index: -1;
     }
+
     .content-text{
         position: absolute;
         color: #ffff;
@@ -51,10 +52,21 @@ header span{
         transform: translateX(-100%);
         text-align: end;
     }
+    .content-image{
+        height: 85vh;
+    }
     footer{
         height: 100px;
         display: flex;
-        justify-content: end;
+        justify-content: space-between;
         align-items: center;
         padding-right: 75px;
+        padding-left: 75px;
+        color: #ffff;
+        font-weight: 100;
+    }
+
+
+    footer div{
+        width: 64px;
     }
